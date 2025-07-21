@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Component() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#110820] via-[#160c2c] to-[#160c2c] p-4">
+    <div className="min-h-screen flex items-center justify-center p-4">
       <div className="text-center space-y-8 max-w-2xl">
         {/* Logo Section */}
         <div className="flex items-center justify-center space-x-4">
