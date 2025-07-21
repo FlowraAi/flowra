@@ -1,7 +1,7 @@
-import { google } from '@ai-sdk/google';
-import { streamText } from 'ai';
-import { config } from '@/config/project';
-import { prompts } from '@/constants/prompts';
+import { google } from "@ai-sdk/google";
+import { streamText } from "ai";
+import { config } from "@/config/project";
+import { prompts } from "@/constants/prompts";
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;

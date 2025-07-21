@@ -19,7 +19,10 @@ export default function Chat() {
           </div>
         ))}
 
-        <form onSubmit={handleSubmit} className="flex items-center gap-2 mt-8 bg-white/10 dark:bg-zinc-900/80 rounded-xl shadow-lg px-4 py-3 backdrop-blur-md">
+        <form
+          onSubmit={handleSubmit}
+          className="flex items-center gap-2 mt-8 bg-white/10 dark:bg-zinc-900/80 rounded-xl shadow-lg px-4 py-3 backdrop-blur-md"
+        >
           <input
             className="flex-1 bg-transparent outline-none text-base text-white dark:text-zinc-100 placeholder-zinc-400 dark:placeholder-zinc-500 px-2 py-2"
             value={input}
